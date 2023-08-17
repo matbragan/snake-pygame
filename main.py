@@ -1,9 +1,6 @@
 import pygame as pg
 from random import randrange
-
-WINDOW = 900
-TILE_SINZE = 50
-RANGE = (TILE_SINZE // 2, WINDOW - TILE_SINZE // 2, TILE_SINZE)
+from settings import WINDOW, TILE_SINZE, RANGE
 
 get_random_position = lambda: [randrange(*RANGE), randrange(*RANGE)]
 snake = pg.rect.Rect([0, 0, TILE_SINZE - 2, TILE_SINZE -2])
