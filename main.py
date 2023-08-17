@@ -1,7 +1,7 @@
 import pygame as pg
 from random import randrange
 
-WINDOW = 1000
+WINDOW = 900
 TILE_SINZE = 50
 RANGE = (TILE_SINZE // 2, WINDOW - TILE_SINZE // 2, TILE_SINZE)
 
